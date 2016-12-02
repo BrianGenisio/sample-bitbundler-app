@@ -1,0 +1,11 @@
+{
+  "fallback": "/index.html",
+  "livereload": 32247,
+  "proxies": {
+    "api-1": "https://my-bad-server/api-1",
+    "api-2": {
+      "url": "https://my-bad-server/api-2",
+      "cookieRewrite": true
+    }
+  }
+}
